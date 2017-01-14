@@ -1,0 +1,5 @@
+services:
+  s9e.debug.listener:
+    class: s9e\debug\listener
+    tags:
+      - { name: event.listener }

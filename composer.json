@@ -1,0 +1,17 @@
+{
+	"name": "s9e/debug",
+	"type": "phpbb-extension",
+	"description": "Show parser logs in post with [debug]",
+	"version": "1.0",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/debug",
+		"soft-require": {
+			"phpbb/phpbb": "3.2.*"
+		}
+	}
+}
