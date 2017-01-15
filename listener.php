@@ -37,7 +37,7 @@ class listener implements EventSubscriberInterface
 			'DEBUG',
 			function ($attributes) use ($log)
 			{
-				$attributes['log'] = base64_encode(print_r($log, true));
+				$attributes['log'] = print_r($log, true);
 
 				return $attributes;
 			}
